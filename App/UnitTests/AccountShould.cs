@@ -1,5 +1,4 @@
 using Bank_Kata;
-using Bank_Kata.Interfaces;
 using FluentAssertions;
 using Moq;
 using System;

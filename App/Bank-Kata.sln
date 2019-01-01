@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank-Kata", "Bank-Kata\Bank-Kata.csproj", "{84D2CCD5-8713-4493-91C6-64F2D564A6A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bank-Kata", "Bank-Kata\Bank-Kata.csproj", "{84D2CCD5-8713-4493-91C6-64F2D564A6A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{6FB632D8-CEB0-4A9A-B620-A18AA498A422}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\UnitTests.csproj", "{6FB632D8-CEB0-4A9A-B620-A18AA498A422}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUtilities", "TestUtilities\TestUtilities.csproj", "{FBC77A57-8C61-4C9C-A84E-20928C84F963}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestUtilities", "TestUtilities\TestUtilities.csproj", "{FBC77A57-8C61-4C9C-A84E-20928C84F963}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcceptanceTests", "AcceptanceTests\AcceptanceTests.csproj", "{813E13A5-CBB0-482E-B21A-C1C3BE6242E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{FBC77A57-8C61-4C9C-A84E-20928C84F963}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBC77A57-8C61-4C9C-A84E-20928C84F963}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBC77A57-8C61-4C9C-A84E-20928C84F963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{813E13A5-CBB0-482E-B21A-C1C3BE6242E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813E13A5-CBB0-482E-B21A-C1C3BE6242E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813E13A5-CBB0-482E-B21A-C1C3BE6242E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813E13A5-CBB0-482E-B21A-C1C3BE6242E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
